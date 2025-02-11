@@ -1,5 +1,5 @@
 # portfolio
 Go to Settings
-Click on Pages
-Click live server link
-Access to my portfolio
+/nClick on Pages
+/nClick live server link
+/nAccess to my portfolio
