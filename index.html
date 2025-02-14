@@ -61,7 +61,10 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="#resume"><i class="bi bi-backpack navicon"></i> Education</a></li>
+        <li><a href="#skills"><i class="bi bi-bookmark-star-fill navicon"></i> Skills</a></li>
+        <li><a href="#courses"><i class="bi bi-calendar-check navicon"></i> My Courses</a></li>
+        <li><a href="#projects"><i class="bi bi-caret-right-fill navicon"></i> Projects</a></li>
         <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li class="dropdown">
@@ -139,7 +142,58 @@
       </div>
 
     </section><!-- /About Section -->
+    
+<!-- Resume Section -->
+<section id="resume" class="resume section">
 
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>My education journey has been a continuous adventure of learning, problem-solving, and innovation. From my early schooling to my current studies in Computer Science (Bioinformatics), I have developed a strong foundation in critical thinking, technology, and research.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Education</h3>
+
+        <div class="resume-item">
+          <h4>Primary Education</h4>
+          <h5>2011 - 2016</h5>
+          <p><em>SJK(C) Su Lai</em></p>
+          <p>Developed foundational academic skills, curiosity, and creativity.</p>
+        </div><!-- End Resume Item -->
+
+        <div class="resume-item">
+          <h4>Secondary Education</h4>
+          <h5>2017 - 2021</h5>
+          <p><em>SMK St. Elizabeth</em></p>
+          <p>Strengthened problem-solving and leadership skills while exploring science and technology.</p>
+        </div><!-- End Resume Item -->
+
+        <div class="resume-item">
+          <h4>Foundation in Science</h4>
+          <h5>2023 - 2024</h5>
+          <p><em>Universiti Teknologi Malaysia (UTM)</em></p>
+          <p>Gained a strong scientific background and analytical skills, preparing for advanced studies.</p>
+        </div><!-- End Resume Item -->
+
+        <div class="resume-item">
+          <h4>Bachelor of Computer Science (Bioinformatics)</h4>
+          <h5>2024 - Present</h5>
+          <p><em>Universiti Teknologi Malaysia (UTM)</em></p>
+          <p>Currently diving into bioinformatics, programming, and data science, bridging technology and biology.</p>
+        </div><!-- End Resume Item -->
+
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /Resume Section -->
+
+    
     <!-- Stats Section -->
 <section id="stats" class="stats section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -165,7 +219,7 @@
         <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-puzzle"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Courses Taken</strong> <span>Cellular and Molecular Biology, Digital Logic, Discrete Structure, Programming Technique I, Technology and Information Systems</span></p>
             </div>
           </div><!-- End Stats Item -->
@@ -243,6 +297,93 @@
       </div>
 
     </section><!-- /Skills Section -->
+<!-- Courses Section -->
+<section id="courses" class="portfolio section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title text-center" data-aos="fade-up">
+    <h2 class="fw-bold text-primary">Courses</h2>
+    <p class="text-muted">Explore the courses I've taken in my Computer Science (Bioinformatics) program. Click to view related projects and assignments.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Course Items -->
+      <style>
+        .portfolio-item {
+          transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item:hover {
+          transform: scale(1.05);
+        }
+        .portfolio-content {
+          border-radius: 15px;
+          overflow: hidden;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          background: #fff;
+          transition: box-shadow 0.3s;
+        }
+        .portfolio-content:hover {
+          box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        .portfolio-info {
+          padding: 15px;
+          text-align: center;
+          background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+          color: white;
+        }
+        .details-link {
+          color: white;
+          font-size: 1.5rem;
+          transition: color 0.3s;
+        }
+        .details-link:hover {
+          color: #ffc107;
+        }
+        .fixed-size {
+          width: 100%;
+          height: 220px;
+          object-fit: cover;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+      </style>
+
+      <!-- Course Template -->
+      <script>
+        const courses = [
+          { title: "Digital Logic", desc: "Fundamentals of digital circuits and logic gates.", img: "digital-logic.jpg", link: "https://github.com/zn0506/SECR1013-01.git" },
+          { title: "Discrete Structure", desc: "Mathematical foundations for computer science.", img: "discrete-structure.png", link: "https://github.com/zn0506/SECI1013-01.git" },
+          { title: "Programming Technique I", desc: "Introduction to structured programming.", img: "programming-technique.jpg", link: "https://github.com/zn0506/SECI1013-01.git" },
+          { title: "Technology and Information System", desc: "Overview of IT infrastructure and applications.", img: "technology-info-system.jpg", link: "https://github.com/zn0506/SECP1513-01.git" },
+          { title: "Integrity and Anti-Corruption", desc: "Ethical practices in computing and business.", img: "integrity.jpg", link: "https://github.com/zn0506/ULRS1032.git" },
+          { title: "Cellular and Molecular Biology", desc: "Biological principles relevant to bioinformatics.", img: "cellular-biology.jpg", link: "https://github.com/zn0506/SEBB4173-01.git" }
+        ];
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          const container = document.querySelector(".isotope-container");
+          courses.forEach(course => {
+            container.innerHTML += `
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <div class="portfolio-content h-100">
+                  <a href="${course.link}" target="_blank">
+                    <img src="assets/img/courses/${course.img}" class="img-fluid fixed-size" alt="${course.title}">
+                  </a>
+                  <div class="portfolio-info">
+                    <h4>${course.title}</h4>
+                    <p>${course.desc}</p>
+                    <a href="${course.link}" target="_blank" class="details-link" title="View Repository"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>`;
+          });
+        });
+      </script>
+    </div><!-- End Portfolio Container -->
+  </div>
+</section><!-- /Courses Section -->
+
 
 <!-- Projects Section -->
 <section id="projects">
